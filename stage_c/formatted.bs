@@ -1,0 +1,2 @@
+10 times: print "let's print this 10 times"
+5 times: print "let's print this 5 times"
