@@ -1,3 +1,5 @@
 nvm use 8.9.1
+cat src.bs
+cat transpiler.mjs
 node --experimental-modules --no-warnings transpiler.mjs src.bs
 node --experimental-modules --no-warnings transpiler.mjs src.bs | node
