@@ -1,5 +1,4 @@
 import { toTranspile, validateSyntax } from '../utils';
-// ----------------------------------
 
 const lexer = /^(?:([0-9]+) times: )?print "([a-zA-Z_ !]+)"\n$/;
 validateSyntax(lexer, toTranspile);

@@ -1,6 +1,5 @@
 import { toTranspile as toFormat, validateSyntax } from '../utils';
 import { lexer } from './stage_c_utils';
-// ----------------------------------
 
 validateSyntax(lexer, toFormat);
 

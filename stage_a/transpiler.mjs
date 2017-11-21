@@ -1,5 +1,4 @@
 import { toTranspile, validateSyntax } from '../utils';
-// ----------------------------------
 
 const lexer = /^print ([a-z_]+)\n$/;
 validateSyntax(lexer, toTranspile);

@@ -1,1 +1,1 @@
-print something_else
+print hello
