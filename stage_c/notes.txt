@@ -1,4 +1,5 @@
 nvm use 8.9.1
+cat src.bs
 watch --interval 0.2 node --experimental-modules --no-warnings formatter.mjs src.bs
 node --experimental-modules --no-warnings formatter.mjs src.bs > formatted.bs
 node --experimental-modules --no-warnings transpiler.mjs formatted.bs
